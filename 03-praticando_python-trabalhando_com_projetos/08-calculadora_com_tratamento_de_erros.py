@@ -19,7 +19,7 @@ class Calculadora:
         if operador not in self.__class__.operadores_validos:
             raise ValueError(f'O operador "{operador}" é inválido!')
         if operador == '/' and num2 == 0:
-            raise ValueError('Erro: Divisão por zero não é permitida!')
+            raise ZeroDivisionError('Erro: Divisão por zero não é permitida!')
         return num1, num2
 
     def calcular(self, operador: str):

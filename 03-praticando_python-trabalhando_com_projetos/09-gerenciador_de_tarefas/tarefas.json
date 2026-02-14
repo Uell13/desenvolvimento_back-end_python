@@ -1,0 +1,12 @@
+{
+    "oUNaIQ": {
+        "tarefa": "tarefa de teste",
+        "criado_em": "12/02/2026 - 23:13",
+        "status": false
+    },
+    "CZAF0g": {
+        "tarefa": "tarefa criada com comando",
+        "criado_em": "12/02/2026 - 23:17",
+        "status": true
+    }
+}
